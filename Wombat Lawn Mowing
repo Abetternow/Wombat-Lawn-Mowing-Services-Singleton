@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>GreenWave Atlantic | Professional Landscaping in the Hamptons</title>
+    <title>Wombat Services | Professional Lawn Mowing in Singleton</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -134,7 +134,7 @@
 
     <header>
 
-        <div class="logo">GreenWave Atlantic</div>
+        <div class="logo">Wombat Lawn Services</div>
 
         <nav>
 
@@ -158,9 +158,10 @@
 
         <div class="hero-content">
 
-            <h1>When Nature Meets Nurture</h1>
+            <h1>Singletons Lawn Mowing Experts</h1>
 
-            <p>Expert landscaping services in the Hamptons. Sustainable design, installation, and care for your property.</p>
+            <p><p>Keeping your lawn tidy shouldn’t be a hassle. Wombat Lawn Mowing Services delivers reliable, affordable lawn care for homes across Wellington — so you can enjoy a clean, fresh yard without lifting a finger.</p>
+</p>
 
             <a href="#contact" class="btn">Start Your Project</a>
 
@@ -182,7 +183,8 @@
 
                 <h3>Experienced</h3>
 
-                <p>With decades of experience, our team has the knowledge and skills to bring your vision to life.</p>
+                <p><p>Whether you need a quick tidy-up or regular lawn maintenance, we show up on time and get the job done right. No fuss, no stress — just a clean, healthy lawn every visit.</p>
+</p>
 
             </div>
 
@@ -198,7 +200,8 @@
 
                 <h3>Reliable</h3>
 
-                <p>Proven track record of customer service and transparent communication.</p>
+                <p><p>We take pride in doing the small things properly — tidy edges, clean paths, and a finish that makes your lawn look cared for. It’s the kind of service we’d want at our own homes.</p>
+</p>
 
             </div>
 
@@ -222,9 +225,10 @@
 
                 <div class="content">
 
-                    <h3>Landscape Design</h3>
+                    <h3>Your Lawn, Our Priority</h3>
 
-                    <p>Thoughtful planning to create a beautiful atmosphere.</p>
+        <p>Our work is built on consistency and pride. You can count on us to show up when we say we will and deliver a lawn that looks fresh, tidy, and professionally cared for.</p>
+</p>
 
                     <a href="#" style="color:var(--green); font-weight:500;">Read More →</a>
 
@@ -238,9 +242,9 @@
 
                 <div class="content">
 
-                    <h3>Hardscaping</h3>
+                    <h3>More than Just Mowing</h3>
 
-                    <p>Custom patios, pathways, and outdoor living features.</p>
+                    <p>We offer a full range of lawn‑care services to keep your property looking its best — from edging and trimming to seasonal tidy‑ups and general garden maintenance.</p>
 
                     <a href="#" style="color:var(--green); font-weight:500;">Read More →</a>
 
@@ -254,9 +258,10 @@
 
                 <div class="content">
 
-                    <h3>Irrigation Services</h3>
+                    <h3>Hedge Trimming a Specialty</h3>
 
-                    <p>Installation, repair, maintenance and conservation.</p>
+                    <p><p>Neat, well‑shaped hedges can transform the look of your property. Our hedge trimming service delivers clean lines, balanced shaping, and careful attention to detail, ensuring your garden stays tidy, healthy, and beautifully presented all year round.</p>
+</p>
 
                     <a href="#" style="color:var(--green); font-weight:500;">Read More →</a>
 
@@ -306,9 +311,10 @@
 
                 <div class="step-num">2</div>
 
-                <h3>Planning + Design</h3>
+                <h3>Regular Maintenance Plans</h3>
 
-                <p>Custom design incorporating plants, hardscaping, and your vision.</p>
+                <p><p>Our regular maintenance plans keep your lawn looking its best all year round. With scheduled visits tailored to your property, we handle the mowing, edging, and general upkeep so you can enjoy a consistently tidy, healthy outdoor space without the hassle.</p>
+</p>
 
             </div>
 
@@ -316,9 +322,10 @@
 
                 <div class="step-num">3</div>
 
-                <h3>Installation</h3>
+                <h3>Seasonal Clean-ups</h3>
 
-                <p>Expert execution while protecting your property’s integrity.</p>
+                <p><p>Seasonal changes can leave your lawn covered in leaves, debris, and overgrowth. Our seasonal clean‑up service restores order with thorough clearing, trimming, and tidy‑ups, giving your property a fresh, well‑kept look heading into the next season.</p>
+</p>
 
             </div>
 
@@ -364,9 +371,9 @@
 
     <footer>
 
-        <p>&copy; 2026 GreenWave Atlantic • Bridgehampton, NY • (631) 324-4339</p>
+        <p>Wombat Lawn Mowing Services is committed to providing reliable, high‑quality lawn care for homes across Wellington. We take pride in the small details and the consistent service that keeps your outdoor spaces looking their best.</p>
 
-        <p>Full-Service Landscaping • Sustainable Practices • Hamptons East End</p>
+        <p>If you’re looking for friendly, dependable lawn maintenance you can count on, we’re here to help. Get in touch anytime for a free quote or to book your next service.</p>
 
     </footer>
 
