@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GreenWave Atlantic | Professional Landscaping in the Hamptons</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+
+        :root {
+
+            --green: #2e7d32;
+
+            --dark: #1b3a1f;
+
+            --light: #f8f9f6;
+
+            --accent: #4caf50;
+
+        }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; line-height:1.6; color:#333; background:var(--light); }
+
+        header {
+
+            position:fixed; top:0; width:100%; background:rgba(255,255,255,0.97); z-index:1000;
+
+            padding:1rem 5%; display:flex; justify-content:space-between; align-items:center; box-shadow:0 2px 15px rgba(0,0,0,0.08);
+
+        }
+
+        .logo { font-size:1.9rem; font-weight:700; color:var(--green); }
+
+        nav a { margin-left:2rem; text-decoration:none; color:#333; font-weight:500; transition:color 0.3s; }
+
+        nav a:hover { color:var(--green); }
+
+        .hero {
+
+            height:100vh; background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://picsum.photos/id/1015/1920/1080') center/cover no-repeat;
+
+            display:flex; align-items:center; justify-content:center; text-align:center; color:white;
+
+        }
+
+        .hero-content { max-width:900px; padding:2rem; }
+
+        .hero h1 { font-size:3.8rem; margin-bottom:1rem; }
+
+        .hero p { font-size:1.35rem; margin-bottom:2rem; }
+
+        .btn {
+
+            padding:15px 38px; background:var(--green); color:white; border-radius:50px; text-decoration:none; font-weight:600; display:inline-block; transition:all 0.3s;
+
+        }
+
+        .btn:hover { background:var(--accent); transform:translateY(-4px); }
+
+        section { padding:110px 5%; }
+
+        .section-title { text-align:center; font-size:2.6rem; margin-bottom:3rem; color:var(--dark); }
+
+        .values { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:2.5rem; text-align:center; }
+
+        .value-card { background:white; padding:2.5rem 1.5rem; border-radius:12px; box-shadow:0 8px 25px rgba(0,0,0,0.07); }
+
+        .services { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:2rem; }
+
+        .service-card {
+
+            background:white; border-radius:12px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.08); transition:transform 0.3s;
+
+        }
+
+        .service-card:hover { transform:translateY(-12px); }
+
+        .service-card img { width:100%; height:240px; object-fit:cover; }
+
+        .service-card .content { padding:1.8rem; }
+
+        .process { background:#f1f5f0; }
+
+        .steps { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:3rem; }
+
+        .step { text-align:center; }
+
+        .step-num {
+
+            width:75px; height:75px; background:var(--green); color:white; border-radius:50%; margin:0 auto 1.5rem;
+
+            display:flex; align-items:center; justify-content:center; font-size:2rem; font-weight:bold;
+
+        }
+
+        .stats { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:2rem; text-align:center; background:var(--dark); color:white; padding:5rem 5%; border-radius:16px; }
+
+        .contact-section { background:var(--green); color:white; text-align:center; }
+
+        footer { background:var(--dark); color:#ccc; padding:4rem 5% 2rem; text-align:center; }
+
+        .floating-cta {
+
+            position:fixed; bottom:30px; right:30px; background:var(--accent); color:white; padding:16px 32px; border-radius:50px;
+
+            box-shadow:0 6px 20px rgba(0,0,0,0.25); z-index:999; display:flex; align-items:center; gap:10px; font-weight:600;
+
+        }
+
+        @media (max-width:768px) {
+
+            .hero h1 { font-size:2.8rem; }
+
+            nav { display:none; } /* Add hamburger menu if needed */
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <div class="logo">GreenWave Atlantic</div>
+
+        <nav>
+
+            <a href="#services">Services</a>
+
+            <a href="#process">Process</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <a href="#contact" class="btn">Get a Quote</a>
+
+    </header>
+
+
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>When Nature Meets Nurture</h1>
+
+            <p>Expert landscaping services in the Hamptons. Sustainable design, installation, and care for your property.</p>
+
+            <a href="#contact" class="btn">Start Your Project</a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Values -->
+
+    <section id="about">
+
+        <h2 class="section-title">Experienced • Sustainable • Reliable</h2>
+
+        <div class="values">
+
+            <div class="value-card">
+
+                <h3>Experienced</h3>
+
+                <p>With decades of experience, our team has the knowledge and skills to bring your vision to life.</p>
+
+            </div>
+
+            <div class="value-card">
+
+                <h3>Sustainable</h3>
+
+                <p>Designing spaces that promote biodiversity and reduce energy consumption.</p>
+
+            </div>
+
+            <div class="value-card">
+
+                <h3>Reliable</h3>
+
+                <p>Proven track record of customer service and transparent communication.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Services -->
+
+    <section id="services">
+
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="services">
+
+            <div class="service-card">
+
+                <img src="https://picsum.photos/id/1015/600/400" alt="Landscape Design">
+
+                <div class="content">
+
+                    <h3>Landscape Design</h3>
+
+                    <p>Thoughtful planning to create a beautiful atmosphere.</p>
+
+                    <a href="#" style="color:var(--green); font-weight:500;">Read More →</a>
+
+                </div>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="https://picsum.photos/id/201/600/400" alt="Hardscaping">
+
+                <div class="content">
+
+                    <h3>Hardscaping</h3>
+
+                    <p>Custom patios, pathways, and outdoor living features.</p>
+
+                    <a href="#" style="color:var(--green); font-weight:500;">Read More →</a>
+
+                </div>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="https://picsum.photos/id/133/600/400" alt="Irrigation">
+
+                <div class="content">
+
+                    <h3>Irrigation Services</h3>
+
+                    <p>Installation, repair, maintenance and conservation.</p>
+
+                    <a href="#" style="color:var(--green); font-weight:500;">Read More →</a>
+
+                </div>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="https://picsum.photos/id/180/600/400" alt="Maintenance">
+
+                <div class="content">
+
+                    <h3>Maintenance</h3>
+
+                    <p>Year-round lawn and garden care to keep your landscape pristine.</p>
+
+                    <a href="#" style="color:var(--green); font-weight:500;">Read More →</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- Process -->
+
+    <section id="process" class="process">
+
+        <h2 class="section-title">How It Works</h2>
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="step-num">1</div>
+
+                <h3>Consultation</h3>
+
+                <p>Initial discussion on your property, budget, and timeline.</p>
+
+            </div>
+
+            <div class="step">
+
+                <div class="step-num">2</div>
+
+                <h3>Planning + Design</h3>
+
+                <p>Custom design incorporating plants, hardscaping, and your vision.</p>
+
+            </div>
+
+            <div class="step">
+
+                <div class="step-num">3</div>
+
+                <h3>Installation</h3>
+
+                <p>Expert execution while protecting your property’s integrity.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Stats -->
+
+    <section>
+
+        <div class="stats">
+
+            <div><h2>40+</h2><p>Years of Experience</p></div>
+
+            <div><h2>500+</h2><p>Satisfied Customers</p></div>
+
+            <div><h2>100%</h2><p>Sustainable Focus</p></div>
+
+            <div><h2>98%</h2><p>Client Retention</p></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Contact / CTA -->
+
+    <section id="contact" class="contact-section">
+
+        <h2 class="section-title" style="color:white;">Ready to Transform Your Outdoor Space?</h2>
+
+        <p style="font-size:1.4rem; max-width:700px; margin:0 auto 2rem;">Call us at (631) 324-4339 or fill out the form for a free consultation.</p>
+
+        <a href="#" class="btn" style="background:white; color:var(--green);">Request a Free Quote</a>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy; 2026 GreenWave Atlantic • Bridgehampton, NY • (631) 324-4339</p>
+
+        <p>Full-Service Landscaping • Sustainable Practices • Hamptons East End</p>
+
+    </footer>
+
+
+
+    <div class="floating-cta">
+
+        <i class="fas fa-phone"></i> (631) 324-4339
+
+    </div>
+
+
+
+    <script>
+
+        // Smooth scroll
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+            anchor.addEventListener('click', function(e) {
+
+                if (this.getAttribute('href') !== '#') {
+
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+
+                }
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
